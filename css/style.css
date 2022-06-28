@@ -697,9 +697,13 @@ h1, h2, h3, h4, h5, h6, figure {
   -ms-border-radius: 7px;
   border-radius: 7px;
 }
+
+/*
 #fh5co-gallery-list li a:hover:before {
   background: rgba(0, 0, 0, 0.5);
 }
+*/
+
 #fh5co-gallery-list li a .case-studies-summary {
   width: auto;
   bottom: 2em;
