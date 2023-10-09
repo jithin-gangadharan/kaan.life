@@ -204,7 +204,14 @@
 
                     minutes = parseInt(secondsLeft / 60, 10);
                     seconds = parseInt(secondsLeft % 60, 10);
-                } 
+                } else {
+                    days = 0;
+                    hours = 0;
+                    minutes = 0;
+                    seconds = 0;
+                    window.clearInterval(interval);
+                    parameters.onEnd();
+                }
 
                 if (parameters.plural) {
                     dayWord = days > 1
